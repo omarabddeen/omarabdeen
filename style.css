@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+   background-color: #02022b;
+}
+header{
+    background-color:  #f0f0f0;
+    width: 100%;
+    border: 15px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 220px;
+}
+ .log{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #3c3cff;
+    text-transform: uppercase;
+}
+.nava a{
+   text-decoration: none;
+    font-size: 1.1em;
+    padding-left: 30px;
+    color: #3c3cff;
+    font-weight: bold;
+}
+.nava .sn{
+  margin-top: -7px;
+  position: absolute;
+  right:70px;
+  background-color: white;
+padding: 7px;
+  border: 2px solid #3c3cff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  transition: .4s;
+}
+.nava a:hover{
+    color: #b33ab4; ;
+}
+.nava .sn:hover{
+  color: white;
+  background-color: #3c3cff;
+  transform: scale(1.1);
+  border: 2px solid rgb(49, 151, 167);
+  cursor: pointer;
+}
+section{
+    padding: 120px 200px;
+}
+.name{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+ 
+}
+ .name img{
+    
+    display: flex;
+    justify-content: right;
+    align-items:right ;
+position: absolute;
+left: 700px;
+bottom: 100px;
+width: 40%;
+   background-size: cover;
+   border: none;
+ }
+ .name h2{
+    color: white;
+    font-weight: bold;
+ }
+ .name h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color:#07b9c9;
+    font-size: 60px;
+font-weight: bold;
+ }
+ .name h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+ }
+.man-buttom{
+    display: inline-block;
+    padding: .9375em 2.187em;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color:rgb(66, 66, 210);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: 1s;
+ }
+ .man-buttom:hover{
+    background-color: #3535a7;
+  transform: scale(1.1);
+ }
+ ul {
+   list-style: none;
+ }
+ 
+ .example-2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .example-2 .icon-content {
+   margin: 0 10px;
+   position: relative;
+ }
+ .example-2 .icon-content .tooltip {
+   position: absolute;
+   top: -30px;
+   left: 50%;
+   transform: translateX(-50%);
+   color: #fff;
+   padding: 6px 10px;
+   border-radius: 5px;
+   opacity: 0;
+   visibility: hidden;
+   font-size: 14px;
+   transition: all .3s ease;
+ }
+ .example-2 .icon-content:hover .tooltip {
+   opacity: 1;
+   visibility: visible;
+   top: -50px;
+ }
+ .example-2 .icon-content a {
+   position: relative;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   color: #4d4d4d;
+   background-color: #fff;
+   transition: all 0.3s ease-in-out;
+ }
+ .example-2 .icon-content a:hover {
+   box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+ }
+ .example-2 .icon-content a svg {
+   position: relative;
+   z-index: 1;
+   width: 30px;
+   height: 30px;
+ }
+ .example-2 .icon-content a:hover {
+   color: white;
+ }
+ .example-2 .icon-content a .filled {
+   position: absolute;
+   top: auto;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 0;
+   background-color: #000;
+   transition: all 0.3s ease-in-out;
+ }
+ .example-2 .icon-content a:hover .filled {
+   height: 100%;
+ }
+ 
+ .example-2 .icon-content a[data-social="linkedin"] .filled,
+ .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+   background-color: #0274b3;
+ }
+ 
+ .example-2 .icon-content a[data-social="github"] .filled,
+ .example-2 .icon-content a[data-social="github"] ~ .tooltip {
+   background-color: #24262a;
+ }
+ .example-2 .icon-content a[data-social="instagram"] .filled,
+ .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+   background: linear-gradient(
+     45deg,
+     #405de6,
+     #5b51db,
+     #b33ab4,
+     #c135b4,
+     #e1306c,
+     #fd1f1f
+   );
+ }
+ .example-2 .icon-content a[data-social="youtube"] .filled,
+ .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+   background-color: #ff0000;
+ }
+ 
+ .cards{
+    background-color: white;
+    box-shadow: 19px 0 25px rgba(13, 105, 198, 0.697);
+ }
+ .tit{
+    display: flex;
+    color: #3a6cf4;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+ }
+ .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+ }
+ .S{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 19px 25px rgba(1,1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px;
+    transition: .7s;
+    
+ }
+ .S:hover{
+    transform: scale(1.1);
+ }
+ .iocon{
+    color: #3a6cf4;
+    font-size: 6em;
+    text-align: center;
+ }
+ .informtion{
+    text-align: center;
+  
+ }
+ .informtion h3{
+    color: #3a6cf4;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+ }
+ .informtion p{
+    color: black;
+    letter-spacing: 1px;
+ }
+ .omar{
+  background-color: #02022b;
+ }
+ .p{
+  color: #3a6cf4;
+  font-size: 2.4em;
+  
+ }
+ .cont{
+  display: flex;
+  justify-content: center;
+ flex-wrap: wrap;
+ }
+.omar .cont{
+  margin-top: 10px;
+}
+.project{
+  background-color: white;
+border-radius: 10px;
+  padding: 5px;
+  margin: 30px;
+  transition: .7s;
+}
+.project:hover{
+  transform: scale(1.05);
+}
+.project:hover .pimg{
+  opacity: .9;
+}
+.project a{
+  color: #3a6cf4;
+ text-transform: uppercase;
+ text-decoration: none;
+ font-size: 20px;
+ font-weight: bold;
+}
+.project a:hover{
+  color: #b33ab4;
+}
+.contact .iocon{
+  font-size: 4.5em;
+}
+.contact .informtion h3{
+  color: black;
+}
+.contact .informtion p{
+  font-size: 1.2em;
+  font-weight: 600;
+
+}
+.end{
+  color: white;
+padding: 25px;
+
+}
+.end p{
+  font-size: 1.1em;
+  font-weight: 600;
+
+}
+.end p span{
+  color: #3a6cf4;
+}

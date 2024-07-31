@@ -1,0 +1,114 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #02022b;
+    background-size: cover;
+}
+form{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 350px;
+ height: 420px;
+ background: rgba(225, 213, 213, 0.211);
+ border-radius: 20px;
+ box-sizing: border-box;
+}
+h2{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.o,[ type="password"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    background: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #0094ff;
+    padding: 5px;
+    color: #fff;
+}
+.o{
+    top: 100px;
+    left: 50px;
+}
+input[type="password"]
+{
+    top: 180px;
+    left: 50px;
+}
+.b{
+    position: absolute;
+    top: 280px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    border: none;
+    background-color: #0094ff;
+    transition: .7s;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+}
+::placeholder{
+    color: #098fef;
+}
+.b:hover{
+    position: absolute;
+    top: 280px;
+    left: 110px;
+   transform: scale(1.1);
+    background-color: #0094ff;
+    font-size: 18px;
+    color: #0094ff;
+    background-color: white;
+}
+p{
+position: absolute;
+top: 340px;
+left: 30px;
+font-size: 21px;
+color: white;
+cursor: pointer;
+letter-spacing: 1px;
+}
+p:hover{
+    color: #0094ff;
+}
+.sn{
+    position: absolute;
+    top: 355px;
+    left: 240px;
+    width: 75px;
+    height: 30px;
+    border: none;
+    padding-left: 12px;
+    padding-top: 8px;
+    font-weight: 500;
+    background-color: #0094ff;
+    border-radius: 30px;
+    color: white;
+    transition: .7s;
+    font-size: 18px;
+    font-family: sans-serif;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #f0f0f5;
+}
+.sn:hover{
+position: absolute;
+top: 355px;
+left: 240px;
+background-color: #0094ff;
+color: #0094ff;
+background-color: white;
+}
